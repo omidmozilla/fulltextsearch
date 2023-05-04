@@ -1,0 +1,84 @@
+2023/05/03 15:45:57 Storage server running
+2023/05/03 15:46:01 Product to search:  searchTerm:{searchTerm:"no"}
+2023/05/03 15:46:01 Search completed: []
+2023/05/03 15:46:53 Product to search:  searchTerm:{searchTerm:"no"}
+2023/05/03 15:46:53 Search completed: []
+2023/05/03 19:57:23 Storage server running
+2023/05/03 20:01:42 Storage server running
+2023/05/03 20:02:03 Product to add:  product:{name:"1" category:"2" sku:"3"}
+2023/05/03 20:02:04 Inserted document with ID ObjectID("6453202bb491c2ae3fcd3c0c")
+2023/05/03 20:02:07 Product to search:  searchTerm:{}
+2023/05/03 20:02:07 Search completed: []
+2023/05/03 20:02:08 Product to search:  searchTerm:{searchTerm:"1"}
+2023/05/03 20:02:08 Result: map[_id:ObjectID("6453202bb491c2ae3fcd3c0c") category:2 id:6453202bb491c2ae3fcd3c0c name:1 sku:3]
+2023/05/03 20:02:08 Search completed: [id:"6453202bb491c2ae3fcd3c0c" name:"1" category:"2" sku:"3"]
+2023/05/03 20:02:11 Product to search:  searchTerm:{searchTerm:"test"}
+2023/05/03 20:02:11 Search completed: []
+2023/05/03 20:02:15 Product to search:  searchTerm:{searchTerm:"new"}
+2023/05/03 20:02:15 Search completed: []
+2023/05/03 20:04:48 Product to search:  searchTerm:{searchTerm:"1"}
+2023/05/03 20:04:48 Result: map[_id:ObjectID("6453202bb491c2ae3fcd3c0c") category:2 id:6453202bb491c2ae3fcd3c0c name:1 sku:3]
+2023/05/03 20:04:48 Search completed: [id:"6453202bb491c2ae3fcd3c0c" name:"1" category:"2" sku:"3"]
+2023/05/03 20:04:54 Product to search:  searchTerm:{searchTerm:"1"}
+2023/05/03 20:04:54 Result: map[_id:ObjectID("6453202bb491c2ae3fcd3c0c") category:2 id:6453202bb491c2ae3fcd3c0c name:1 sku:3]
+2023/05/03 20:04:54 Search completed: [id:"6453202bb491c2ae3fcd3c0c" name:"1" category:"2" sku:"3"]
+2023/05/03 20:04:56 Product to search:  searchTerm:{searchTerm:"test"}
+2023/05/03 20:04:56 Search completed: []
+2023/05/03 20:04:59 Product to add:  product:{name:"test" category:"2" sku:"test"}
+2023/05/03 20:04:59 Inserted document with ID ObjectID("645320dbb491c2ae3fcd3c15")
+2023/05/03 20:05:00 Product to search:  searchTerm:{searchTerm:"test"}
+2023/05/03 20:05:00 Result: map[_id:ObjectID("645320dbb491c2ae3fcd3c15") category:2 id:645320dbb491c2ae3fcd3c15 name:test sku:test]
+2023/05/03 20:05:00 Search completed: [id:"645320dbb491c2ae3fcd3c15" name:"test" category:"2" sku:"test"]
+2023/05/03 20:05:01 Product to search:  searchTerm:{searchTerm:"test"}
+2023/05/03 20:05:01 Result: map[_id:ObjectID("645320dbb491c2ae3fcd3c15") category:2 id:645320dbb491c2ae3fcd3c15 name:test sku:test]
+2023/05/03 20:05:01 Search completed: [id:"645320dbb491c2ae3fcd3c15" name:"test" category:"2" sku:"test"]
+2023/05/03 20:05:03 Product to add:  product:{name:"test" category:"2" sku:"test"}
+2023/05/03 20:05:03 Inserted document with ID ObjectID("645320dfb491c2ae3fcd3c19")
+2023/05/03 20:05:04 Product to search:  searchTerm:{searchTerm:"test"}
+2023/05/03 20:05:04 Result: map[_id:ObjectID("645320dfb491c2ae3fcd3c19") category:2 id:645320dfb491c2ae3fcd3c19 name:test sku:test]
+2023/05/03 20:05:04 Result: map[_id:ObjectID("645320dbb491c2ae3fcd3c15") category:2 id:645320dbb491c2ae3fcd3c15 name:test sku:test]
+2023/05/03 20:05:04 Search completed: [id:"645320dfb491c2ae3fcd3c19" name:"test" category:"2" sku:"test" id:"645320dbb491c2ae3fcd3c15" name:"test" category:"2" sku:"test"]
+2023/05/03 20:06:00 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:06:00 Search completed: []
+2023/05/03 20:06:04 Product to add:  product:{name:"asd" category:"asd" sku:"asd"}
+2023/05/03 20:06:04 Inserted document with ID ObjectID("6453211cb491c2ae3fcd3c1d")
+2023/05/03 20:06:06 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:06:06 Result: map[_id:ObjectID("6453211cb491c2ae3fcd3c1d") category:asd id:6453211cb491c2ae3fcd3c1d name:asd sku:asd]
+2023/05/03 20:06:06 Search completed: [id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"]
+2023/05/03 20:06:53 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:06:53 Result: map[_id:ObjectID("6453211cb491c2ae3fcd3c1d") category:asd id:6453211cb491c2ae3fcd3c1d name:asd sku:asd]
+2023/05/03 20:06:53 Search completed: [id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"]
+2023/05/03 20:06:56 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:06:56 Result: map[_id:ObjectID("6453211cb491c2ae3fcd3c1d") category:asd id:6453211cb491c2ae3fcd3c1d name:asd sku:asd]
+2023/05/03 20:06:56 Search completed: [id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"]
+2023/05/03 20:07:01 Product to add:  product:{name:"asdasd" category:"asdasd" sku:"asdasd"}
+2023/05/03 20:07:01 Inserted document with ID ObjectID("64532155b491c2ae3fcd3c22")
+2023/05/03 20:07:06 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:07:06 Result: map[_id:ObjectID("6453211cb491c2ae3fcd3c1d") category:asd id:6453211cb491c2ae3fcd3c1d name:asd sku:asd]
+2023/05/03 20:07:06 Search completed: [id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"]
+2023/05/03 20:07:08 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:07:08 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:07:08 Result: map[_id:ObjectID("6453211cb491c2ae3fcd3c1d") category:asd id:6453211cb491c2ae3fcd3c1d name:asd sku:asd]
+2023/05/03 20:07:08 Search completed: [id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"]
+2023/05/03 20:07:08 Result: map[_id:ObjectID("6453211cb491c2ae3fcd3c1d") category:asd id:6453211cb491c2ae3fcd3c1d name:asd sku:asd]
+2023/05/03 20:07:08 Search completed: [id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"]
+2023/05/03 20:07:18 Product to add:  product:{name:"asdasd" category:"asdasd" sku:"asdasd"}
+2023/05/03 20:07:18 Inserted document with ID ObjectID("64532166b491c2ae3fcd3c27")
+2023/05/03 20:07:20 Product to search:  searchTerm:{searchTerm:"asd"}
+2023/05/03 20:07:20 Result: map[_id:ObjectID("6453211cb491c2ae3fcd3c1d") category:asd id:6453211cb491c2ae3fcd3c1d name:asd sku:asd]
+2023/05/03 20:07:20 Search completed: [id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"]
+2023/05/03 20:07:27 Product to search:  searchTerm:{searchTerm:"asdasd"}
+2023/05/03 20:07:27 Result: map[_id:ObjectID("64532166b491c2ae3fcd3c27") category:asdasd id:64532166b491c2ae3fcd3c27 name:asdasd sku:asdasd]
+2023/05/03 20:07:27 Result: map[_id:ObjectID("64532155b491c2ae3fcd3c22") category:asdasd id:64532155b491c2ae3fcd3c22 name:asdasd sku:asdasd]
+2023/05/03 20:07:27 Search completed: [id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd" id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"]
+2023/05/03 20:08:07 Storage server running
+2023/05/03 20:08:09 Product to add:  product:{name:"asdasd"  category:"asdasd"  sku:"asdasd"}
+2023/05/03 20:08:09 Inserted document with ID ObjectID("6453219959b0f4e8c19c7d3d")
+2023/05/03 20:08:10 Product to search:  searchTerm:{searchTerm:"asdasd"}
+2023/05/03 20:08:10 Search completed: [id:"6453219959b0f4e8c19c7d3d"  name:"asdasd"  category:"asdasd"  sku:"asdasd" id:"64532166b491c2ae3fcd3c27"  name:"asdasd"  category:"asdasd"  sku:"asdasd" id:"64532155b491c2ae3fcd3c22"  name:"asdasd"  category:"asdasd"  sku:"asdasd"]
+2023/05/03 20:08:17 Product to search:  searchTerm:{searchTerm:"asdasd"}
+2023/05/03 20:08:17 Search completed: [id:"6453219959b0f4e8c19c7d3d"  name:"asdasd"  category:"asdasd"  sku:"asdasd" id:"64532166b491c2ae3fcd3c27"  name:"asdasd"  category:"asdasd"  sku:"asdasd" id:"64532155b491c2ae3fcd3c22"  name:"asdasd"  category:"asdasd"  sku:"asdasd"]
+2023/05/03 20:08:18 Product to add:  product:{name:"asdasd"  category:"2"  sku:"asdasd"}
+2023/05/03 20:08:18 Inserted document with ID ObjectID("645321a259b0f4e8c19c7d41")
+2023/05/03 20:08:21 Product to search:  searchTerm:{searchTerm:"2"}
+2023/05/03 20:08:21 Search completed: [id:"645321a259b0f4e8c19c7d41"  name:"asdasd"  category:"2"  sku:"asdasd" id:"645320dfb491c2ae3fcd3c19"  name:"test"  category:"2"  sku:"test" id:"645320dbb491c2ae3fcd3c15"  name:"test"  category:"2"  sku:"test" id:"6453202bb491c2ae3fcd3c0c"  name:"1"  category:"2"  sku:"3"]

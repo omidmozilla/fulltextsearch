@@ -1,0 +1,35 @@
+syntax = "proto3";
+package rundoo.com.rpc;
+option go_package = "rundoo.com/rpc";
+
+service ProductService {
+  rpc AddProduct(AddProductReq) returns (AddProductResp);
+  rpc SearchProducts(SearchProductReq) returns (SearchProductResp);
+}
+
+message Product {
+  string id = 1;
+  string name = 2;
+  string category = 3;  
+  string sku = 4;
+}
+
+message Search {
+  string searchTerm = 1;
+}
+
+message AddProductReq {
+  Product product = 1;
+}
+
+message AddProductResp {
+  bool success = 1;
+}
+
+message SearchProductReq {
+  Search searchTerm = 1;
+}
+
+message SearchProductResp {
+  repeated Product products = 1;
+}

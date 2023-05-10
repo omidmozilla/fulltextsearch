@@ -10,7 +10,7 @@ async function AddProduct(product) {
   })
   .then(data => data.json())
   .catch( () => {
-    throw Error("An error has occured during login");
+    throw Error("An error has occured during adding a product");
     }
   )
 }
@@ -25,7 +25,7 @@ async function SearchProducts(searchTerm) {
   })
   .then(data => data.json())
   .catch( () => {
-    throw Error("An error has occured during getting the quotes");
+    throw Error("An error has occured during searching the products");
     }
   )
 }

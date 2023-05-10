@@ -1,6 +1,6 @@
 # Full Text Search
 
-Full Text Search is an example program that allows to add products and performs a full text search
+Full Text Search is an example program that allows you to add products and performs a full text search
 
 ## Technologies
 
@@ -10,16 +10,36 @@ Project is created with:
 - rpc - Twirp on protobuf rpc library
 - server - Go API server
 - storage - Go MongoDB server
-
-You will need mongodb installed
+- config - Configuration files
 
 ## Installation
 
-TBD
+You will need mongodb installed and run the following command
+use fulltextsearch
+db.products.createIndex({ name: "text", category: "text", sku: "text" })
+
+Change config/config.go for any custom ports
 
 ## Usage
 
-TBD
+Start storage server
+cd storage
+go run storage.go
+
+Start backend server
+cd server
+go run server.go
+
+Start client
+cd client
+npm start
+
+## Tests
+
+To run the test start the storage server
+
+cd server/tests
+go test
 
 ## Contributing
 

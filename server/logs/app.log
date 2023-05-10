@@ -273,3 +273,323 @@
 2023/05/03 20:08:18 Product created success:  success:true
 2023/05/03 20:08:21 Product to search:  searchTerm:"2"
 2023/05/03 20:08:21 Search products success:  products:{id:"645321a259b0f4e8c19c7d41"  name:"asdasd"  category:"2"  sku:"asdasd"}  products:{id:"645320dfb491c2ae3fcd3c19"  name:"test"  category:"2"  sku:"test"}  products:{id:"645320dbb491c2ae3fcd3c15"  name:"test"  category:"2"  sku:"test"}  products:{id:"6453202bb491c2ae3fcd3c0c"  name:"1"  category:"2"  sku:"3"}
+2023/05/08 12:25:35 API server running
+2023/05/08 12:38:54 Product to add:  name:"new"  category:"product"  sku:"this"
+2023/05/08 12:38:54 Product created success:  success:true
+2023/05/08 12:39:06 Product to search:  searchTerm:"new"
+2023/05/08 12:39:06 Search products success:  products:{id:"64594fce6d3a0e5daa114b71"  name:"new"  category:"product"  sku:"this"}
+2023/05/08 13:01:35 Product to add:  name:"new"  category:"product"  sku:"this"
+2023/05/08 13:01:35 Product created success:  success:true
+2023/05/08 13:01:36 Product to search:  searchTerm:"new"
+2023/05/08 13:01:36 Search products success:  products:{id:"6459551f6d3a0e5daa114b74"  name:"new"  category:"product"  sku:"this"}  products:{id:"64594fce6d3a0e5daa114b71"  name:"new"  category:"product"  sku:"this"}
+2023/05/08 14:33:17 API server running
+2023/05/08 14:33:27 Error has occured validating create product  Validatation error occured on the product sku
+2023/05/08 14:34:02 Product to search:  searchTerm:"new"
+2023/05/08 14:34:02 Search products success:  products:{id:"6459551f6d3a0e5daa114b74"  name:"new"  category:"product"  sku:"this"}  products:{id:"64594fce6d3a0e5daa114b71"  name:"new"  category:"product"  sku:"this"}
+2023/05/08 14:34:03 Product to search:  searchTerm:"new"
+2023/05/08 14:34:03 Search products success:  products:{id:"6459551f6d3a0e5daa114b74"  name:"new"  category:"product"  sku:"this"}  products:{id:"64594fce6d3a0e5daa114b71"  name:"new"  category:"product"  sku:"this"}
+2023/05/08 14:34:47 Error has occured validating create product  Validatation error occured on the product sku
+2023/05/08 14:36:17 Error has occured validating create product  Validatation error occured on the product sku
+2023/05/08 14:36:30 API server running
+2023/05/08 14:37:10 Error has occured validating create product  Product sku must not be empty
+2023/05/08 14:37:11 Error has occured validating create product  Product sku must not be empty
+2023/05/08 14:37:11 Error has occured validating create product  Product sku must not be empty
+2023/05/08 14:37:41 Error has occured validating create product  Product sku must not be empty
+2023/05/08 14:38:21 Error has occured validating create product  Product sku must not be empty
+2023/05/08 14:40:36 API server running
+2023/05/08 14:40:54 Product to add:  {{{{} [] [] <nil>} 0 []  new product sku}}
+2023/05/08 14:40:54 Product created success:  success:true
+2023/05/08 14:40:54 Product to search:  searchTerm:"new"
+2023/05/08 14:40:54 Search products success:  products:{id:"64596c666d3a0e5daa114bbf" name:"new" category:"product" sku:"sku"} products:{id:"6459551f6d3a0e5daa114b74" name:"new" category:"product" sku:"this"} products:{id:"64594fce6d3a0e5daa114b71" name:"new" category:"product" sku:"this"}
+2023/05/08 14:40:57 Error has occured validating create product  Product category must not be empty
+2023/05/08 14:42:17 Error has occured validating create product  Product name must not be empty
+2023/05/08 14:42:18 Error has occured validating create product  Product name must not be empty
+2023/05/08 14:42:18 Error has occured validating create product  Product name must not be empty
+2023/05/08 14:42:20 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/08 14:42:20 Product created success:  success:true
+2023/05/08 14:42:25 Product to search:  searchTerm:"asd"
+2023/05/08 14:42:25 Search products success:  products:{id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"}
+2023/05/08 14:42:29 Product to search:  searchTerm:"asdasd"
+2023/05/08 14:42:29 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/08 14:42:34 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/08 14:42:34 Product created success:  success:true
+2023/05/08 14:42:35 Product to search:  searchTerm:"asdasd"
+2023/05/08 14:42:35 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/08 14:42:41 Product to search:  searchTerm:"asd"
+2023/05/08 14:42:41 Search products success:  products:{id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"}
+2023/05/08 14:42:42 Product to search:  searchTerm:"asd"
+2023/05/08 14:42:42 Search products success:  products:{id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"}
+2023/05/09 12:44:32 Product to search:  searchTerm:"asd"
+2023/05/09 12:44:32 Search products success:  products:{id:"6453211cb491c2ae3fcd3c1d" name:"asd" category:"asd" sku:"asd"}
+2023/05/09 12:44:35 Product to search:  searchTerm:"new"
+2023/05/09 12:44:35 Search products success:  products:{id:"64596c666d3a0e5daa114bbf" name:"new" category:"product" sku:"sku"} products:{id:"6459551f6d3a0e5daa114b74" name:"new" category:"product" sku:"this"} products:{id:"64594fce6d3a0e5daa114b71" name:"new" category:"product" sku:"this"}
+2023/05/09 13:18:37 API server running
+2023/05/09 13:23:28 API server running
+2023/05/09 13:24:13 {localhost 8080}
+2023/05/09 13:24:13 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:24:13 Product created success:  success:true
+2023/05/09 13:32:13 API server running
+2023/05/09 13:32:24 localhost:localhost
+2023/05/09 13:32:24 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:32:24 Product created success:  success:true
+2023/05/09 13:32:57 API server running
+2023/05/09 13:33:00 localhost:8080
+2023/05/09 13:33:00 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:33:00 Product created success:  success:true
+2023/05/09 13:34:20 API server running
+2023/05/09 13:34:25 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:34:25 Product created success:  success:true
+2023/05/09 13:34:33 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:34:33 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 13:34:35 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:34:35 Product created success:  success:true
+2023/05/09 13:34:36 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:34:36 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 13:36:46 API server running
+2023/05/09 13:37:00 API server running
+2023/05/09 13:37:03 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:37:03 Product created success:  success:true
+2023/05/09 13:37:06 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:37:06 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d"  name:"asdasd"  category:"asdasd"  sku:"asdasd"}  products:{id:"64532166b491c2ae3fcd3c27"  name:"asdasd"  category:"asdasd"  sku:"asdasd"}  products:{id:"64532155b491c2ae3fcd3c22"  name:"asdasd"  category:"asdasd"  sku:"asdasd"}  products:{id:"645321a259b0f4e8c19c7d41"  name:"asdasd"  category:"2"  sku:"asdasd"}  products:{id:"645aaeefc3ec878e7c5ef3ff"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aae5bc3ec878e7c5ef3fc"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aae51c3ec878e7c5ef3f9"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aadfcc3ec878e7c5ef3f7"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aadd8c3ec878e7c5ef3f5"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aabedc3ec878e7c5ef3f3"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"64596cca6d3a0e5daa114bc8"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"64596cbc6d3a0e5daa114bc4"  name:"asdasd"  category:"category"  sku:"sku"}
+2023/05/09 13:38:45 API server running
+2023/05/09 13:39:27 API server running
+2023/05/09 13:40:10 API server running
+2023/05/09 13:41:06 API server running
+2023/05/09 13:41:09 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:41:09 Product created success:  success:true
+2023/05/09 13:41:10 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:41:10 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d"  name:"asdasd"  category:"asdasd"  sku:"asdasd"}  products:{id:"64532166b491c2ae3fcd3c27"  name:"asdasd"  category:"asdasd"  sku:"asdasd"}  products:{id:"64532155b491c2ae3fcd3c22"  name:"asdasd"  category:"asdasd"  sku:"asdasd"}  products:{id:"645321a259b0f4e8c19c7d41"  name:"asdasd"  category:"2"  sku:"asdasd"}  products:{id:"645aafe5c3ec878e7c5ef402"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aaeefc3ec878e7c5ef3ff"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aae5bc3ec878e7c5ef3fc"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aae51c3ec878e7c5ef3f9"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aadfcc3ec878e7c5ef3f7"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aadd8c3ec878e7c5ef3f5"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"645aabedc3ec878e7c5ef3f3"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"64596cca6d3a0e5daa114bc8"  name:"asdasd"  category:"category"  sku:"sku"}  products:{id:"64596cbc6d3a0e5daa114bc4"  name:"asdasd"  category:"category"  sku:"sku"}
+2023/05/09 13:52:44 API server running
+2023/05/09 13:52:53 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:52:53 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 13:53:00 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:53:00 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 13:54:29 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:54:29 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 13:54:50 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:54:50 Product created success:  success:true
+2023/05/09 13:54:53 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:54:53 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 13:55:55 API server running
+2023/05/09 13:57:59 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:57:59 Product created success:  success:true
+2023/05/09 13:58:00 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:58:00 Product created success:  success:true
+2023/05/09 13:58:01 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:58:01 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 13:58:37 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:58:37 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 13:58:38 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:58:38 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 13:58:44 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:58:44 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 13:58:44 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:58:44 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 13:59:11 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 13:59:11 Product created success:  success:true
+2023/05/09 13:59:19 Product to search:  searchTerm:"asdasd"
+2023/05/09 13:59:19 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 14:04:16 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 14:04:16 Product created success:  success:true
+2023/05/09 14:04:17 Product to search:  searchTerm:"asdasd"
+2023/05/09 14:04:17 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 14:04:49 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 14:04:49 Product created success:  success:true
+2023/05/09 14:04:50 Product to search:  searchTerm:"asdasd"
+2023/05/09 14:04:50 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 14:05:35 Product to search:  searchTerm:"asdasd"
+2023/05/09 14:05:35 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 14:06:19 Product to search:  searchTerm:"asdasd"
+2023/05/09 14:06:19 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 14:06:26 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 14:06:26 Product created success:  success:true
+2023/05/09 14:06:29 Product to search:  searchTerm:"asdasd"
+2023/05/09 14:06:29 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 18:51:59 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 18:51:59 Product created success:  success:true
+2023/05/09 18:52:00 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:52:00 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 18:52:01 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 18:52:01 Product created success:  success:true
+2023/05/09 18:52:02 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:52:02 Search products success:  products:{id:"6453219959b0f4e8c19c7d3d" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532166b491c2ae3fcd3c27" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"64532155b491c2ae3fcd3c22" name:"asdasd" category:"asdasd" sku:"asdasd"} products:{id:"645321a259b0f4e8c19c7d41" name:"asdasd" category:"2" sku:"asdasd"} products:{id:"645aafe5c3ec878e7c5ef402" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aaeefc3ec878e7c5ef3ff" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae5bc3ec878e7c5ef3fc" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aae51c3ec878e7c5ef3f9" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadfcc3ec878e7c5ef3f7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aadd8c3ec878e7c5ef3f5" name:"asdasd" category:"category" sku:"sku"} products:{id:"645aabedc3ec878e7c5ef3f3" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cca6d3a0e5daa114bc8" name:"asdasd" category:"category" sku:"sku"} products:{id:"64596cbc6d3a0e5daa114bc4" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 18:53:19 API server running
+2023/05/09 18:53:35 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 18:53:35 Product created success:  success:true
+2023/05/09 18:53:36 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:53:36 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 18:54:00 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:54:00 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:00 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:54:00 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:01 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:54:01 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:02 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:54:02 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:02 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:54:02 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:05 Product to search:  searchTerm:"new"
+2023/05/09 18:54:05 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:06 Product to search:  searchTerm:"new"
+2023/05/09 18:54:06 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:06 Product to search:  searchTerm:"new"
+2023/05/09 18:54:06 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:06 Product to search:  searchTerm:"new"
+2023/05/09 18:54:06 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:07 Product to search:  searchTerm:"new"
+2023/05/09 18:54:07 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:07 Product to search:  searchTerm:"new"
+2023/05/09 18:54:07 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:07 Product to search:  searchTerm:"new"
+2023/05/09 18:54:07 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:16 Product to search:  searchTerm:"new"
+2023/05/09 18:54:16 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:54:27 Product to search:  searchTerm:"new"
+2023/05/09 18:54:27 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 18:54:34 Product to search:  searchTerm:"new"
+2023/05/09 18:54:34 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:55:09 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 18:55:09 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 18:55:16 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 18:55:16 Product created success:  success:true
+2023/05/09 18:55:21 Product to search:  searchTerm:"new"
+2023/05/09 18:55:21 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 18:56:33 Product to search:  searchTerm:"new"
+2023/05/09 18:56:33 Search products success:  
+2023/05/09 18:56:35 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 18:56:35 Product created success:  success:true
+2023/05/09 18:56:39 Product to search:  searchTerm:"asdsad"
+2023/05/09 18:56:39 Search products success:  
+2023/05/09 18:56:40 Product to search:  searchTerm:"asdsad"
+2023/05/09 18:56:40 Search products success:  
+2023/05/09 18:56:41 Product to search:  searchTerm:"asdsad"
+2023/05/09 18:56:41 Search products success:  
+2023/05/09 18:56:46 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category sku}}
+2023/05/09 18:56:46 Product created success:  success:true
+2023/05/09 18:57:04 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:57:04 Search products success:  products:{id:"645af9de7f57c901207adab7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af9d37f57c901207adab2" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af98497a54ec9f425feaa" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af91fc3bfbec8ac68fba1" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af8c132106b50dd7948b2" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af8bf32106b50dd7948af" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab5d232106b50dd7948ac" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab571c62253746e544d8f" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab55030fc403b0e6f2f78" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab41f2c6d67f464fc04b0" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab3d82719d830267b67b0" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab3d72719d830267b67ae" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab31a61a4de8942cf2366" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 18:57:11 Product to search:  searchTerm:"asdasd"
+2023/05/09 18:57:11 Search products success:  products:{id:"645af9de7f57c901207adab7" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af9d37f57c901207adab2" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af98497a54ec9f425feaa" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af91fc3bfbec8ac68fba1" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af8c132106b50dd7948b2" name:"asdasd" category:"category" sku:"sku"} products:{id:"645af8bf32106b50dd7948af" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab5d232106b50dd7948ac" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab571c62253746e544d8f" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab55030fc403b0e6f2f78" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab41f2c6d67f464fc04b0" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab3d82719d830267b67b0" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab3d72719d830267b67ae" name:"asdasd" category:"category" sku:"sku"} products:{id:"645ab31a61a4de8942cf2366" name:"asdasd" category:"category" sku:"sku"}
+2023/05/09 18:57:13 Product to search:  searchTerm:"new"
+2023/05/09 18:57:13 Search products success:  
+2023/05/09 18:57:14 Product to search:  searchTerm:"new"
+2023/05/09 18:57:14 Search products success:  
+2023/05/09 18:57:15 Product to search:  searchTerm:"new"
+2023/05/09 18:57:15 Search products success:  
+2023/05/09 18:57:15 Product to search:  searchTerm:"new"
+2023/05/09 18:57:15 Search products success:  
+2023/05/09 18:57:15 Product to search:  searchTerm:"new"
+2023/05/09 18:57:15 Search products success:  
+2023/05/09 18:57:15 Product to search:  searchTerm:"new"
+2023/05/09 18:57:15 Search products success:  
+2023/05/09 18:57:16 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category new}}
+2023/05/09 18:57:16 Product created success:  success:true
+2023/05/09 18:57:17 Product to search:  searchTerm:"new"
+2023/05/09 18:57:17 Search products success:  products:{id:"645af9fc7f57c901207adac1" name:"asdasd" category:"category" sku:"new"}
+2023/05/09 18:57:22 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd category new}}
+2023/05/09 18:57:22 Product created success:  success:true
+2023/05/09 18:57:23 Product to search:  searchTerm:"new"
+2023/05/09 18:57:23 Search products success:  products:{id:"645afa027f57c901207adac4" name:"asdasd" category:"category" sku:"new"} products:{id:"645af9fc7f57c901207adac1" name:"asdasd" category:"category" sku:"new"}
+2023/05/09 18:57:26 Product to add:  {{{{} [] [] <nil>} 0 []  asdasd test new}}
+2023/05/09 18:57:26 Product created success:  success:true
+2023/05/09 18:57:30 Product to search:  searchTerm:"test"
+2023/05/09 18:57:30 Search products success:  products:{id:"645afa067f57c901207adac7" name:"asdasd" category:"test" sku:"new"}
+2023/05/09 19:01:43 API server running
+2023/05/09 19:03:33 API server running
+2023/05/09 19:03:38 Error has occured validating create product  Product name must not be empty
+2023/05/09 19:03:39 Product to search:  
+2023/05/09 19:03:39 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 19:03:43 Product to add:  {{{{} [] [] <nil>} 0 []  asd adsasd asdasd}}
+2023/05/09 19:03:43 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:03:45 Product to search:  searchTerm:"asd"
+2023/05/09 19:03:45 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:03:46 Product to search:  searchTerm:"asd"
+2023/05/09 19:03:46 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:03:46 Product to search:  searchTerm:"asd"
+2023/05/09 19:03:46 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:03:46 Product to search:  searchTerm:"asd"
+2023/05/09 19:03:46 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:03:46 Product to search:  searchTerm:"asd"
+2023/05/09 19:03:46 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:03:47 Product to search:  searchTerm:"asd"
+2023/05/09 19:03:47 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:03:47 Product to search:  searchTerm:"asd"
+2023/05/09 19:03:47 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:04:01 Product to search:  searchTerm:"asd"
+2023/05/09 19:04:01 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:04:58 Product to search:  searchTerm:"asd"
+2023/05/09 19:04:58 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:04:59 Product to search:  searchTerm:"asd"
+2023/05/09 19:04:59 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:00 Product to search:  searchTerm:"asd"
+2023/05/09 19:05:00 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:08 Product to add:  {{{{} [] [] <nil>} 0 []  asd adsasd asdasd}}
+2023/05/09 19:05:08 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:33 Product to search:  searchTerm:"asd"
+2023/05/09 19:05:33 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:35 Product to add:  {{{{} [] [] <nil>} 0 []  asd adsasd asdasd}}
+2023/05/09 19:05:35 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:35 Product to add:  {{{{} [] [] <nil>} 0 []  asd adsasd asdasd}}
+2023/05/09 19:05:35 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:36 Product to search:  searchTerm:"asd"
+2023/05/09 19:05:36 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:36 Product to search:  searchTerm:"asd"
+2023/05/09 19:05:36 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:37 Product to add:  {{{{} [] [] <nil>} 0 []  asd adsasd asdasd}}
+2023/05/09 19:05:37 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:05:59 Error has occured validating create product  Product name must not be empty
+2023/05/09 19:06:00 Product to search:  
+2023/05/09 19:06:00 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:06:02 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:06:02 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:06:04 Product to search:  searchTerm:"asd"
+2023/05/09 19:06:04 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:07:05 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:07:05 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:07:06 Product to search:  searchTerm:"asd"
+2023/05/09 19:07:06 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:07:12 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:07:13 Product created success:  success:true
+2023/05/09 19:08:14 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:08:14 Product created success:  success:true
+2023/05/09 19:08:27 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:08:27 Product created success:  success:true
+2023/05/09 19:08:40 Error has occured validating create product  Product name must not be empty
+2023/05/09 19:09:11 Error has occured validating create product  Product name must not be empty
+2023/05/09 19:09:12 Product to search:  
+2023/05/09 19:09:12 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": EOF
+2023/05/09 19:09:13 Error has occured validating create product  Product name must not be empty
+2023/05/09 19:09:14 Product to search:  
+2023/05/09 19:09:14 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/SearchProducts": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:09:19 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:09:19 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:10:39 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:10:39 Product created failure:  twirp error internal: failed to do request: Post "http://localhost:8088/twirp/rundoo.com.rpc.ProductService/AddProduct": dial tcp [::1]:8088: connect: connection refused
+2023/05/09 19:10:48 Product to add:  {{{{} [] [] <nil>} 0 []  asd asd asd}}
+2023/05/09 19:10:48 Product created success:  success:true
+2023/05/09 19:10:50 Product to search:  searchTerm:"new"
+2023/05/09 19:10:50 Search products success:  
+2023/05/09 19:10:53 Product to search:  searchTerm:"asd"
+2023/05/09 19:10:53 Search products success:  products:{id:"645afd2845fab7232ee9dc2d" name:"asd" category:"asd" sku:"asd"}
+2023/05/09 19:10:57 Product to search:  searchTerm:"asd"
+2023/05/09 19:10:57 Search products success:  products:{id:"645afd2845fab7232ee9dc2d" name:"asd" category:"asd" sku:"asd"}
+2023/05/09 19:10:59 Product to search:  searchTerm:"aasd"
+2023/05/09 19:10:59 Search products success:  
+2023/05/09 19:11:02 Product to search:  searchTerm:"asda"
+2023/05/09 19:11:02 Search products success:  
+2023/05/09 19:11:03 Product to search:  searchTerm:"asda"
+2023/05/09 19:11:03 Search products success:  
+2023/05/09 19:11:04 Product to search:  searchTerm:"asda"
+2023/05/09 19:11:04 Search products success:  
+2023/05/09 19:11:25 Product to add:  {{{{} [] [] <nil>} 0 []  asda asdsdasd asdasd}}
+2023/05/09 19:11:25 Product created success:  success:true
+2023/05/09 19:11:32 Product to search:  searchTerm:"asda"
+2023/05/09 19:11:32 Search products success:  products:{id:"645afd4d45fab7232ee9dc36" name:"asda" category:"asdsdasd" sku:"asdasd"}
+2023/05/09 19:11:36 Product to add:  {{{{} [] [] <nil>} 0 []  asdas asdsdasd asdasd}}
+2023/05/09 19:11:36 Product created success:  success:true
+2023/05/09 19:11:38 Product to search:  searchTerm:"asdas"
+2023/05/09 19:11:38 Search products success:  products:{id:"645afd4d45fab7232ee9dc36" name:"asda" category:"asdsdasd" sku:"asdasd"} products:{id:"645afd5845fab7232ee9dc39" name:"asdas" category:"asdsdasd" sku:"asdasd"}
+2023/05/09 19:11:46 Product to add:  {{{{} [] [] <nil>} 0 []  asdass asdsdasd asdasd}}
+2023/05/09 19:11:46 Product created success:  success:true
+2023/05/09 19:11:48 Product to search:  searchTerm:"asdass"
+2023/05/09 19:11:48 Search products success:  products:{id:"645afd6245fab7232ee9dc3c" name:"asdass" category:"asdsdasd" sku:"asdasd"}

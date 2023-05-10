@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Grid from '@mui/material/Grid'
 import { Typography, TextField, Button } from '@mui/material';
-import { IsEmptyString } from '../utils/data.utils.js'
 import { AddProduct, SearchProducts } from '../data/Product.js'
 
 export { Product, ProductSearch }
@@ -13,36 +12,23 @@ function Product() {
   const [message,           setMessage]         = useState('');
   const [productNameMsg,    setProductNameMsg]  = useState('');
 
-  const isValid = (productName) => {
-
-    var returnValue = null
-    if( IsEmptyString(productName) ) {
-      setProductNameMsg("Product Name must not be empty")
-      returnValue = false
-    }
-
-    return returnValue
-  }
-
   const handleSubmit = async e => {
     e.preventDefault();
 
     setMessage('')
     setProductNameMsg('')
-    var isValidMessage = isValid(productName);
-    if( isValidMessage != null ) {
-      setMessage(isValidMessage)
-    } else {
-      try {
-        const _ = await AddProduct({name: productName, category: productCategory, sku: productSku});
-        // if (response.hasOwnProperty('success')) {   
-        // } else if (response.hasOwnProperty('failure')) {
-        // } else {
-        // }
+
+    try {
+      const response = await AddProduct({name: productName, category: productCategory, sku: productSku});
+      if (response.hasOwnProperty('failure')) {
+        setMessage(response.failure)
+      } 
+      else {
+        setMessage("Product has been added")
       }
-      catch (error) {
-        //setMessage(error.message)
-      }
+    }
+    catch (error) {
+      setMessage(error.message)
     }
   }
 
@@ -62,7 +48,6 @@ function Product() {
                 required                  
                 id="productName"
                 name="productName"
-                // error={productName == '' ? false : true}
                 label="Product Name"
                 onChange={e => setProductName(e.target.value)}
               />
@@ -72,7 +57,6 @@ function Product() {
                 required                  
                 id="productCategory"
                 name="productCategory"
-                // error={productName == '' ? false : true}
                 label="Product Category"
                 onChange={e => setProductCategory(e.target.value)}
               />      
@@ -82,7 +66,6 @@ function Product() {
                 required                  
                 id="productSku"
                 name="productSku"
-                // error={productName == '' ? false : true}
                 label="Product Sku"
                 onChange={e => setProductSku(e.target.value)}
               />                        
@@ -168,6 +151,9 @@ function ProductSearch() {
             setProducts([])
           }
         }
+        else {
+          setMessage(response.failure)
+        }
       }
       catch (error) {
         setMessage(error.message)
@@ -186,7 +172,6 @@ function ProductSearch() {
                 required                  
                 id="search"
                 name="search"
-                // error={productName == '' ? false : true}
                 label="Search"
                 onChange={e => setSearch(e.target.value)}
           />   

@@ -40,6 +40,7 @@ Browse to http://localhost:3000/
 
 To run the test start the storage server
 
+Run the server tests:\
 cd server/tests\
 go test
 

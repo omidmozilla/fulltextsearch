@@ -16,7 +16,7 @@ Project is created with:
 
 You will need mongodb installed and run the following commands:\
 use fulltextsearch\
-db.products.createIndex({ name: "text", category: "text", sku: "text" })\
+db.products.createIndex({ name: "text", category: "text", sku: "text" })
 
 Change config/config.go for any custom ports
 

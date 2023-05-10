@@ -34,6 +34,8 @@ Start client\
 cd client
 npm start
 
+Browse to http://localhost:3000/
+
 ## Tests
 
 To run the test start the storage server

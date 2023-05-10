@@ -14,23 +14,23 @@ Project is created with:
 
 ## Installation
 
-You will need mongodb installed and run the following command
-use fulltextsearch
-db.products.createIndex({ name: "text", category: "text", sku: "text" })
+You will need mongodb installed and run the following commands:\
+use fulltextsearch\
+db.products.createIndex({ name: "text", category: "text", sku: "text" })\
 
 Change config/config.go for any custom ports
 
 ## Usage
 
-Start storage server
-cd storage
+Start storage server\
+cd storage\
 go run storage.go
 
-Start backend server
-cd server
+Start backend server\
+cd server\
 go run server.go
 
-Start client
+Start client\
 cd client
 npm start
 
@@ -38,7 +38,7 @@ npm start
 
 To run the test start the storage server
 
-cd server/tests
+cd server/tests\
 go test
 
 ## Contributing
